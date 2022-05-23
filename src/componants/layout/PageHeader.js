@@ -1,14 +1,11 @@
 const PageHeader = (props) => {
-  return ( 
-    <div className="container">
-      <div>
-       <h1>Logo</h1>
-      </div>
-      <div>
+  return (
+    <nav className="navbar navbar-light bg-light">
+      <a className="navbar-brand" href="#">
         Navbar
-      </div>
-    </div>
-   );
-}
- 
+      </a>
+    </nav>
+  );
+};
+
 export default PageHeader;

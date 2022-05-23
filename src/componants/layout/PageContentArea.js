@@ -4,8 +4,8 @@ import TodoList from "../TodoList";
 const PageContentArea = (props) => {
   return ( 
   <div className="container">
-    <TodoForm />
     <TodoList />
+    <TodoForm />
   </div>
    );
 }
